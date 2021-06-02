@@ -9,56 +9,16 @@
 /* Begin PBXBuildFile section */
 		7811313A26674D2F002D2E62 /* Junos.h in Headers */ = {isa = PBXBuildFile; fileRef = 7811313826674D2F002D2E62 /* Junos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7811314126674D7D002D2E62 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7811314026674D7D002D2E62 /* Extensions.swift */; };
-		7811314926675999002D2E62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7811314826675999002D2E62 /* AppDelegate.swift */; };
-		7811314B26675999002D2E62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7811314A26675999002D2E62 /* SceneDelegate.swift */; };
-		7811314F2667599C002D2E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7811314E2667599C002D2E62 /* Assets.xcassets */; };
-		781131522667599C002D2E62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781131512667599C002D2E62 /* Preview Assets.xcassets */; };
-		781131552667599C002D2E62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781131532667599C002D2E62 /* LaunchScreen.storyboard */; };
-		7811315B266759B4002D2E62 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7811315A266759B4002D2E62 /* DemoViewController.swift */; };
-		7811315D266759F0002D2E62 /* Junos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811313526674D2F002D2E62 /* Junos.framework */; };
-		7811315E266759F0002D2E62 /* Junos.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7811313526674D2F002D2E62 /* Junos.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7811316326675B0C002D2E62 /* LeftPaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7811316226675B0C002D2E62 /* LeftPaddedTextField.swift */; };
 		7811316526675B21002D2E62 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7811316426675B21002D2E62 /* Banner.swift */; };
 		7811316A26675CDA002D2E62 /* AttrFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7811316926675CDA002D2E62 /* AttrFont.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7811315F266759F0002D2E62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7811312C26674D2F002D2E62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7811313426674D2F002D2E62;
-			remoteInfo = Junos;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		78113161266759F0002D2E62 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				7811315E266759F0002D2E62 /* Junos.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7811313526674D2F002D2E62 /* Junos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Junos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7811313826674D2F002D2E62 /* Junos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Junos.h; sourceTree = "<group>"; };
 		7811313926674D2F002D2E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7811314026674D7D002D2E62 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		7811314626675999002D2E62 /* JunosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JunosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7811314826675999002D2E62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7811314A26675999002D2E62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7811314E2667599C002D2E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		781131512667599C002D2E62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		781131542667599C002D2E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		781131562667599C002D2E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7811315A266759B4002D2E62 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		7811316226675B0C002D2E62 /* LeftPaddedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftPaddedTextField.swift; sourceTree = "<group>"; };
 		7811316426675B21002D2E62 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		7811316926675CDA002D2E62 /* AttrFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttrFont.swift; sourceTree = "<group>"; };
@@ -72,14 +32,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7811314326675999002D2E62 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7811315D266759F0002D2E62 /* Junos.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				7811313726674D2F002D2E62 /* Junos */,
-				7811314726675999002D2E62 /* JunosDemo */,
 				7811313626674D2F002D2E62 /* Products */,
 				7811315C266759F0002D2E62 /* Frameworks */,
 			);
@@ -97,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				7811313526674D2F002D2E62 /* Junos.framework */,
-				7811314626675999002D2E62 /* JunosDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,28 +63,6 @@
 				7811313926674D2F002D2E62 /* Info.plist */,
 			);
 			path = Junos;
-			sourceTree = "<group>";
-		};
-		7811314726675999002D2E62 /* JunosDemo */ = {
-			isa = PBXGroup;
-			children = (
-				7811314826675999002D2E62 /* AppDelegate.swift */,
-				7811314A26675999002D2E62 /* SceneDelegate.swift */,
-				7811315A266759B4002D2E62 /* DemoViewController.swift */,
-				7811314E2667599C002D2E62 /* Assets.xcassets */,
-				781131532667599C002D2E62 /* LaunchScreen.storyboard */,
-				781131562667599C002D2E62 /* Info.plist */,
-				781131502667599C002D2E62 /* Preview Content */,
-			);
-			path = JunosDemo;
-			sourceTree = "<group>";
-		};
-		781131502667599C002D2E62 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				781131512667599C002D2E62 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		7811315C266759F0002D2E62 /* Frameworks */ = {
@@ -176,25 +104,6 @@
 			productReference = 7811313526674D2F002D2E62 /* Junos.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7811314526675999002D2E62 /* JunosDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 781131592667599C002D2E62 /* Build configuration list for PBXNativeTarget "JunosDemo" */;
-			buildPhases = (
-				7811314226675999002D2E62 /* Sources */,
-				7811314326675999002D2E62 /* Frameworks */,
-				7811314426675999002D2E62 /* Resources */,
-				78113161266759F0002D2E62 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78113160266759F0002D2E62 /* PBXTargetDependency */,
-			);
-			name = JunosDemo;
-			productName = JunosDemo;
-			productReference = 7811314626675999002D2E62 /* JunosDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,9 +116,6 @@
 					7811313426674D2F002D2E62 = {
 						CreatedOnToolsVersion = 12.5;
 						LastSwiftMigration = 1250;
-					};
-					7811314526675999002D2E62 = {
-						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
@@ -227,7 +133,6 @@
 			projectRoot = "";
 			targets = (
 				7811313426674D2F002D2E62 /* Junos */,
-				7811314526675999002D2E62 /* JunosDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -237,16 +142,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7811314426675999002D2E62 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				781131552667599C002D2E62 /* LaunchScreen.storyboard in Resources */,
-				781131522667599C002D2E62 /* Preview Assets.xcassets in Resources */,
-				7811314F2667599C002D2E62 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,36 +159,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7811314226675999002D2E62 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7811315B266759B4002D2E62 /* DemoViewController.swift in Sources */,
-				7811314926675999002D2E62 /* AppDelegate.swift in Sources */,
-				7811314B26675999002D2E62 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		78113160266759F0002D2E62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7811313426674D2F002D2E62 /* Junos */;
-			targetProxy = 7811315F266759F0002D2E62 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		781131532667599C002D2E62 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				781131542667599C002D2E62 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7811313B26674D2F002D2E62 /* Debug */ = {
@@ -469,48 +335,6 @@
 			};
 			name = Release;
 		};
-		781131572667599C002D2E62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"JunosDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = 7AV259SP85;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = JunosDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = hitit.JunosDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		781131582667599C002D2E62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"JunosDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = 7AV259SP85;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = JunosDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = hitit.JunosDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -528,15 +352,6 @@
 			buildConfigurations = (
 				7811313E26674D2F002D2E62 /* Debug */,
 				7811313F26674D2F002D2E62 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		781131592667599C002D2E62 /* Build configuration list for PBXNativeTarget "JunosDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				781131572667599C002D2E62 /* Debug */,
-				781131582667599C002D2E62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
